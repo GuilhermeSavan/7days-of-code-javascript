@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <title>Day two</title>
+    <main>
+        <div>
+            <h1> 7 days of code: javascript</h1>
+            <p>day two: inputs e string</p>
+        </div>
+        <form onsubmit="sendInput(); return false">
+            <label for="nome">Nome</label>
+            <input type="text" class="text-input"  id="nome"required>
+
+            <label for="idade">idade</label>
+            <input type="text" class="text-input" id="idade" required>
+            
+            <label for="linguagem">Qual linguagem de programação você está estudando?</label>
+            <input type="text" class="text-input" id="linguagem" required>
+
+            <button id="send">Enviar</button>
+
+        </form>
+    </main>
+    <script src="daytwo.js"></script>
+</body>
+</html>
